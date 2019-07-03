@@ -1,0 +1,5 @@
+<map id="souffle::LVMGenerator::visitScan" name="souffle::LVMGenerator::visitScan">
+<area shape="rect" id="node2" href="$classsouffle_1_1_ram_relation_operation.html#a64ab83f16d939b4088b572b7dfb37067" title="Get search relation. " alt="" coords="216,5,431,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_ram_tuple_operation.html#a5ba589d8d0941f07eb19ae77f56e3357" title="Get identifier. " alt="" coords="225,71,421,112"/>
+<area shape="rect" id="node4" href="$namespacesouffle.html#ad0e8debde5608979e041dd30e044612a" title="Valid C++ identifier, note that this does not ensure the uniqueness of identifiers returned..." alt="" coords="479,78,605,105"/>
+</map>

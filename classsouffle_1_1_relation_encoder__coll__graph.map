@@ -1,0 +1,4 @@
+<map id="souffle::RelationEncoder" name="souffle::RelationEncoder">
+<area shape="rect" id="node3" href="$classsouffle_1_1_ram_index_analysis.html" title="{souffle::RamIndexAnalysis\n||+ getIndexes()\l+ getIndexes()\l+ getSearchSignature()\l+ getSearchSignature()\l+ getSearchSignature()\l+ getSearchSignature()\l+ isTotalSignature()\l+ print()\l+ run()\l}" alt="" coords="221,175,407,369"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_ram_analysis.html" title="Abstract class for a RAM Analysis. " alt="" coords="111,5,264,112"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="souffle::LVMRelInterface::iterator_base" name="souffle::LVMRelInterface::iterator_base">
+<area shape="rect" id="node2" href="$classsouffle_1_1_relation_1_1iterator__base.html" title="{souffle::Relation::\literator_base\n||+ clone()\l+ getId()\l+ iterator_base()\l+ operator*()\l+ operator++()\l+ operator==()\l+ ~iterator_base()\l# equal()\l}" alt="" coords="581,637,724,832"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1_l_v_m_rel_interface.html" title="Wrapper class for interpreter relations. " alt="" coords="748,608,920,861"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1tuple.html" title="Defines a tuple for the OO interface such that relations with varying columns can be accessed..." alt="" coords="337,615,461,854"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_relation.html" title="Object&#45;oriented wrapper class for Souffle&#39;s templatized relations. " alt="" coords="457,292,605,545"/>
+<area shape="rect" id="node14" href="$classsouffle_1_1_l_v_m_relation.html" title="A relation, composed of a collection of indexes. " alt="" coords="850,307,1061,531"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_l_v_m_relation_1_1_iterator.html" title="Support for&#45;each iteration for LVMRelation. " alt="" coords="1453,637,1601,832"/>
+<area shape="rect" id="node15" href="$classsouffle_1_1_l_v_m_index.html" title="An index is an abstraction of a data structure. " alt="" coords="784,5,916,215"/>
+<area shape="rect" id="node18" href="$classsouffle_1_1_symbol_table.html" title="Global pool of re&#45;usable strings. " alt="" coords="1267,292,1430,545"/>
+<area shape="rect" id="node20" href="$structsouffle_1_1_lock.html" title="A small utility class for implementing simple locks. " alt="" coords="1614,49,1715,171"/>
+</map>

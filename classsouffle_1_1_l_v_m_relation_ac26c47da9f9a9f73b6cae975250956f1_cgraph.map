@@ -1,0 +1,6 @@
+<map id="souffle::LVMRelation::end" name="souffle::LVMRelation::end">
+<area shape="rect" id="node2" href="$classsouffle_1_1_l_v_m_relation.html#abfe16ada59339d570d7e8060cb7896b1" title="Add the given tuple to this relation. " alt="" coords="233,5,381,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_l_v_m_relation_1_1_iterator.html#a12eb95efa927c4331bb45f246967c6d8" title="souffle::LVMRelation\l::Iterator::Iterator" alt="" coords="233,71,381,112"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_l_v_m_relation.html#a8d4785b5c93dbf10596fc07ed074a87e" title="Drops an index from the maintained indexes. " alt="" coords="233,136,381,177"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_l_v_m_index.html#ad47ed27229ac965aa188b72c5279ff98" title="Inserts a tuple into this index. " alt="" coords="429,5,569,47"/>
+</map>

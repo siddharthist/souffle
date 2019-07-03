@@ -1,0 +1,10 @@
+<map id="souffle::RelationEncoder::encodeRelation" name="souffle::RelationEncoder::encodeRelation">
+<area shape="rect" id="node2" href="$classsouffle_1_1_relation_encoder.html#a8d968e71e40316ba20e42364e500cc86" title="Create relation with corresponding index type. " alt="" coords="228,187,403,229"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_ram_relation.html#aff204de1a828d72e6e74337be4885ddd" title="Get name. " alt="" coords="473,318,623,359"/>
+<area shape="rect" id="node3" href="$namespacesouffle.html#a08376db4bcb3dce4b0f83189d1f790c6" title="souffle::createBrieIndex" alt="" coords="462,5,634,32"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ram_relation.html#a4b8c28fa5818f930e0d3149cd4a50b8b" title="souffle::RamRelation\l::getArity" alt="" coords="473,57,623,98"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ram_relation.html#a218ff692979f9dc4dc769db4c2d63428" title="souffle::RamRelation\l::getAttributeTypeQualifiers" alt="" coords="451,122,645,163"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_ram_index_analysis.html#a475526dcb15efeaa12e8b561494d74e1" title="get the minimal index cover for a relation " alt="" coords="455,187,641,229"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_ram_relation.html#a72e3a04cbd701f2e8aa42919b76cedce" title="Relation representation type. " alt="" coords="473,253,623,294"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_order.html#a9955602f49eaa70da91645d6c0d77020" title="souffle::Order::size" alt="" coords="693,5,835,32"/>
+</map>

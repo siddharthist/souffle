@@ -1,0 +1,10 @@
+<map id="souffle::LVMRelation::insert" name="souffle::LVMRelation::insert">
+<area shape="rect" id="node2" href="$classsouffle_1_1_l_v_m_relation.html#aedd8750e4c3b1dee04f4647f3d72e2a0" title="Tests whether this relation contains the given tuple. " alt="" coords="201,5,349,47"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_l_v_m_relation.html#abfe16ada59339d570d7e8060cb7896b1" title="Add the given tuple to this relation. " alt="" coords="201,71,349,112"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_l_v_m_relation.html#a7725a8b289ae3fe22369aa1100ee566a" title="Obtains a stream covering the interval between the two given entries. " alt="" coords="201,136,349,177"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_l_v_m_relation.html#a8b3a5ba846ecd6de1033aa9de3b02ad3" title="Obtains a stream to scan the entire relation. " alt="" coords="201,201,349,243"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_l_v_m_relation.html#ac269999ab0e95e738b977038f6ed897f" title="Swaps the content of this and the given relation, including the installed indexes. " alt="" coords="201,267,349,308"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_l_v_m_index.html#a698727a08a1d2823862f0e283e669232" title="Tests whether the given tuple is present in this index or not. " alt="" coords="413,5,553,47"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_l_v_m_index.html#ad47ed27229ac965aa188b72c5279ff98" title="Inserts a tuple into this index. " alt="" coords="413,71,553,112"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_l_v_m_index.html#af1d7b57aab394a0043c21e18167f9498" title="Returns a stream covering the entire index content. " alt="" coords="397,209,568,235"/>
+</map>

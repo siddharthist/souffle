@@ -1,0 +1,51 @@
+<map id="souffle::LVM::execute" name="souffle::LVM::execute">
+<area shape="rect" id="node2" href="$classsouffle_1_1_l_v_m_context.html#acacf248d309ba34d923235cbbce9b7c1" title="souffle::LVMContext\l::addReturnValue" alt="" coords="255,5,403,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_l_v_m_context.html#a60b94adf97ea98011aa198533d543b41" title="Allocate a tuple. " alt="" coords="255,71,403,112"/>
+<area shape="rect" id="node4" href="$structsouffle_1_1range.html#a554c3177b5a922424d53272046d08439" title="souffle::range::begin" alt="" coords="253,137,405,163"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_l_v_m.html#a8714bad1e3c607ed95e4f4a701cca805" title="Drop relation. " alt="" coords="236,187,421,214"/>
+<area shape="rect" id="node6" href="$structsouffle_1_1range.html#a8adb2ec7dd86cd971d0142fb31212386" title="souffle::range::end" alt="" coords="258,238,399,265"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_l_v_m_context.html#a64748eb6bb4129fff0abddbd086086f7" title="souffle::LVMContext\l::getArgument" alt="" coords="255,289,403,331"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_i_o_system.html#ae1e53d74f6e822a2df86eabc69cdcdce" title="souffle::IOSystem::\lgetInstance" alt="" coords="257,355,400,396"/>
+<area shape="rect" id="node9" href="$classsouffle_1_1_l_v_m_code.html#a345307cbe36dd34b1589136ba402c7a0" title="Return IODirectives pool. " alt="" coords="211,421,447,447"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_l_v_m.html#a94845285717afe9223f40227acbb1cc8" title="Get Iteration Number. " alt="" coords="239,472,419,513"/>
+<area shape="rect" id="node11" href="$classsouffle_1_1_l_v_m_interface.html#a0a8477b4479d4c0f8ff3778790112a26" title="souffle::LVMInterface\l::getMethodHandle" alt="" coords="251,537,406,579"/>
+<area shape="rect" id="node15" href="$classsouffle_1_1_i_o_system.html#ab905b29f99e5e93728d69f489c488c70" title="Return a new ReadStream. " alt="" coords="257,668,400,709"/>
+<area shape="rect" id="node18" href="$classsouffle_1_1_l_v_m.html#aff8a7c82a96b9088cc2fa28318b03e3c" title="Get a relation. " alt="" coords="240,734,417,761"/>
+<area shape="rect" id="node19" href="$classsouffle_1_1_relation_encoder.html#a0873e4ee2c1948d4a6f2a8377753b32c" title="souffle::RelationEncoder\l::getRelationMap" alt="" coords="241,785,416,827"/>
+<area shape="rect" id="node20" href="$classsouffle_1_1_l_v_m_code.html#a06f3ce3facd2a1285f40260a394e68dd" title="Return SymbolTabel. " alt="" coords="225,903,433,944"/>
+<area shape="rect" id="node26" href="$classsouffle_1_1_i_o_system.html#a2d463f68e457f1848980b26f367fb77a" title="Return a new WriteStream. " alt="" coords="257,603,400,644"/>
+<area shape="rect" id="node27" href="$classsouffle_1_1_l_v_m.html#a05c8df2081815da560d14a3ed277bdd7" title="Increment counter. " alt="" coords="241,969,416,995"/>
+<area shape="rect" id="node28" href="$classsouffle_1_1_l_v_m.html#a2313da3f284a6bde61c565fe5c83ed10" title="Increment iteration number. " alt="" coords="240,1020,417,1061"/>
+<area shape="rect" id="node29" href="$classsouffle_1_1_l_v_m_relation.html#abfe16ada59339d570d7e8060cb7896b1" title="Add the given tuple to this relation. " alt="" coords="255,1085,403,1127"/>
+<area shape="rect" id="node31" href="$classsouffle_1_1_l_v_m.html#a3f1092737894aa5e163366fb88bc78eb" title="Insert Logger. " alt="" coords="233,1151,425,1178"/>
+<area shape="rect" id="node32" href="$classsouffle_1_1_signal_handler.html#ab7eed040c4ebc493e77f60046e820b6c" title="souffle::SignalHandler\l::instance" alt="" coords="248,1203,409,1244"/>
+<area shape="rect" id="node33" href="$classsouffle_1_1_profile_event_singleton.html#adf94d78a9d87272b42a1fe4bc31f918d" title="get instance " alt="" coords="225,1268,432,1309"/>
+<area shape="rect" id="node34" href="$namespacesouffle.html#a23d62e96f3d7162806dc7d4d7798297a" title="Determines whether the given reference is the null reference encoding the absence of any nested recor..." alt="" coords="275,1334,382,1361"/>
+<area shape="rect" id="node35" href="$classsouffle_1_1_l_v_m.html#a19d19ae56bca5178c0ddd73889886a81" title="Lookup stream, resize the pool if necessary. " alt="" coords="229,1385,428,1411"/>
+<area shape="rect" id="node36" href="$classsouffle_1_1_profile_event_singleton.html#a09d8e99d145207286edb972d51d715d6" title="create quantity event " alt="" coords="225,1501,432,1543"/>
+<area shape="rect" id="node39" href="$classsouffle_1_1_profile_event_singleton.html#a10ddb4233506c0d6ea6ba5bc262b426b" title="create stratum record " alt="" coords="225,1436,432,1477"/>
+<area shape="rect" id="node40" href="$namespacesouffle.html#a3194e440e935d0d6089f8fa6bf405086" title="A function packing a tuple of the given arity into a reference. " alt="" coords="553,851,655,878"/>
+<area shape="rect" id="node42" href="$structsouffle_1_1range.html#a202f7ac51d81f1e9a26211682914f64f" title="souffle::range::range" alt="" coords="251,1567,406,1594"/>
+<area shape="rect" id="node43" href="$classsouffle_1_1_l_v_m.html#ac465795a1452190f3d9e9c57ce6a94da" title="Reset iteration number. " alt="" coords="233,1619,425,1660"/>
+<area shape="rect" id="node44" href="$classsouffle_1_1_signal_handler.html#a7db0968d537d06d216823b9baa9a5834" title="souffle::SignalHandler\l::setMsg" alt="" coords="248,1684,409,1725"/>
+<area shape="rect" id="node45" href="$classsouffle_1_1_l_v_m_relation.html#a8b7a9a3db195f4fbbf3e7563a7fd866a" title="Return number of tuples in relation (full&#45;order) " alt="" coords="255,1749,403,1791"/>
+<area shape="rect" id="node47" href="$classsouffle_1_1_l_v_m.html#ad3c91c120d4bf9b36ec4bc07eb275d9e" title="Stop and destroy logger. " alt="" coords="237,1815,421,1842"/>
+<area shape="rect" id="node48" href="$classsouffle_1_1_l_v_m.html#a87f1fe93a25edcdac24bc7752e450e17" title="Swap relation. " alt="" coords="235,1866,423,1893"/>
+<area shape="rect" id="node49" href="$namespacesouffle.html#aedb9e5cd2a72ce6acebd8d3eb233a05d" title="A function obtaining a pointer to the tuple addressed by the given reference. " alt="" coords="269,1917,388,1943"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1_l_v_m_interface.html#a9a1e7e0d8e855b0ec856c6cbdc0c524d" title="Load dll. " alt="" coords="527,537,681,579"/>
+<area shape="rect" id="node13" href="$classsouffle_1_1_global.html#a2dcb257b0f98d0b882862427cc965640" title="souffle::Global::config" alt="" coords="779,570,937,597"/>
+<area shape="rect" id="node14" href="$namespacesouffle.html#a673608e9453179d30f6607384f54463a" title="Splits a string given a delimiter. " alt="" coords="790,519,926,546"/>
+<area shape="rect" id="node16" href="$classsouffle_1_1_i_o_directives.html#afe88e8d440efcef1bf4cacf77fcb3a50" title="souffle::IODirectives\l::getIOType" alt="" coords="530,603,678,644"/>
+<area shape="rect" id="node17" href="$classsouffle_1_1_i_o_system.html#a42d9301f7c96f6555e9d006028b73041" title="souffle::IOSystem::\l~IOSystem" alt="" coords="533,668,675,709"/>
+<area shape="rect" id="node21" href="$classsouffle_1_1_l_v_m_code.html#a6bd465a1cfa0e1e2f30e5d35560a3667" title="Print out the code stream. " alt="" coords="520,969,688,995"/>
+<area shape="rect" id="node25" href="$classsouffle_1_1_l_v_m_code.html#aa9510084d6570249274984994fcebbd9" title="souffle::LVMCode::\l~LVMCode" alt="" coords="535,903,673,944"/>
+<area shape="rect" id="node22" href="$classsouffle_1_1_l_v_m_code.html#ad193a5b56d440a745af487e7316051ec" title="Return reference to code stream. " alt="" coords="761,910,955,937"/>
+<area shape="rect" id="node23" href="$classsouffle_1_1_symbol_table.html#a4f93dea7a8e4af02f28070548a652660" title="Find a symbol in the table by its index, note that this gives an error if the index is out of bounds..." alt="" coords="782,961,934,1003"/>
+<area shape="rect" id="node24" href="$structsouffle_1_1_lock.html#a0fe2edd3ac13a141851fa021716bae04" title="souffle::Lock::acquire" alt="" coords="1003,910,1159,937"/>
+<area shape="rect" id="node30" href="$classsouffle_1_1_l_v_m_index.html#ad47ed27229ac965aa188b72c5279ff98" title="Inserts a tuple into this index. " alt="" coords="534,1085,674,1127"/>
+<area shape="rect" id="node37" href="$classsouffle_1_1profile_1_1_event_processor_singleton.html#a3a6564631bccb96da84ccad7edfe4dc9" title="get instance " alt="" coords="495,1501,713,1543"/>
+<area shape="rect" id="node38" href="$classsouffle_1_1profile_1_1_event_processor_singleton.html#a537033bada68e176ff0b09239acd21fe" title="process a profile event " alt="" coords="495,1436,713,1477"/>
+<area shape="rect" id="node41" href="$classsouffle_1_1detail_1_1_record_map.html#a50da37d2493c58782ba088e82d4d3708" title="Packs the given tuple – and may create a new reference if necessary. " alt="" coords="765,844,951,885"/>
+<area shape="rect" id="node46" href="$classsouffle_1_1_l_v_m_index.html#a238681d9dc74e466ee5679ad9f46ef31" title="Obtains the number of elements stored in this index. " alt="" coords="521,1757,687,1783"/>
+<area shape="rect" id="node50" href="$classsouffle_1_1detail_1_1_record_map.html#a69dd3a240de59e2570d6fc282cb267fe" title="Obtains a pointer to the tuple addressed by the given index. " alt="" coords="511,1909,697,1951"/>
+</map>

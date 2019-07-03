@@ -1,0 +1,9 @@
+<map id="souffle::LVMIndex" name="souffle::LVMIndex">
+<area shape="rect" id="node2" href="$classsouffle_1_1_generic_index.html" title="{souffle::GenericIndex\l\&lt; btree_set\&lt; ram::Tuple\l\&lt; RamDomain, Arity \&gt;, comparator\l\&lt; Arity \&gt; \&gt; \&gt;\n|&#45; data\l&#45; order\l&#45; Arity\l|+ clear()\l+ contains()\l+ empty()\l+ GenericIndex()\l+ getArity()\l+ insert()\l+ insert()\l+ range()\l+ scan()\l+ size()\l}" alt="" coords="5,263,256,545"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_generic_index.html" title="{souffle::GenericIndex\l\&lt; Trie\&lt; Arity \&gt; \&gt;\n|&#45; data\l&#45; order\l&#45; Arity\l|+ clear()\l+ contains()\l+ empty()\l+ GenericIndex()\l+ getArity()\l+ insert()\l+ insert()\l+ range()\l+ scan()\l+ size()\l}" alt="" coords="280,277,435,531"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_generic_index.html" title="A generic data structure index adapter handling the boundary level order conversion as well as iterat..." alt="" coords="459,277,613,531"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_indirect_index.html" title="{souffle::IndirectIndex\n|&#45; arity\l&#45; operation_hints\l&#45; set\l&#45; theOrder\l|+ clear()\l+ contains()\l+ empty()\l+ getArity()\l+ IndirectIndex()\l+ insert()\l+ insert()\l+ range()\l+ scan()\l+ size()\l}" alt="" coords="638,277,791,531"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_nullary_index.html" title="An index wrapper for nullary indexes. " alt="" coords="815,307,966,501"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_b_tree_index.html" title="A index adapter for B&#45;trees, using the generic index adapter. " alt="" coords="60,593,201,685"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_brie_index.html" title="A index adapter for Bries, using the generic index adapter. " alt="" coords="292,593,423,685"/>
+</map>

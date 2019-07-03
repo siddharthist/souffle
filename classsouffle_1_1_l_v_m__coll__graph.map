@@ -1,0 +1,11 @@
+<map id="souffle::LVM" name="souffle::LVM">
+<area shape="rect" id="node2" href="$classsouffle_1_1_l_v_m_interface.html" title="Interpreter Interface. " alt="" coords="1361,807,1529,1001"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_relation_encoder.html" title="RelationEncoder create and encode a LVMRelation into a index position for fast lookup. " alt="" coords="1158,535,1333,700"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_ram_index_analysis.html" title="{souffle::RamIndexAnalysis\n||+ getIndexes()\l+ getIndexes()\l+ getSearchSignature()\l+ getSearchSignature()\l+ getSearchSignature()\l+ getSearchSignature()\l+ isTotalSignature()\l+ print()\l+ run()\l}" alt="" coords="1572,219,1759,413"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ram_analysis.html" title="Abstract class for a RAM Analysis. " alt="" coords="1589,13,1742,119"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1_ram_translation_unit.html" title="Translating a RAM program. " alt="" coords="465,505,660,729"/>
+<area shape="rect" id="node13" href="$classsouffle_1_1_debug_report.html" title="Class representing a HTML report, consisting of a list of sections. " alt="" coords="935,255,1089,377"/>
+<area shape="rect" id="node17" href="$classsouffle_1_1_error_report.html" title="{souffle::ErrorReport\n||+ addDiagnostic()\l+ addError()\l+ addWarning()\l+ ErrorReport()\l+ ErrorReport()\l+ getNumErrors()\l+ getNumIssues()\l+ getNumWarnings()\l+ print()\l}" alt="" coords="130,219,286,413"/>
+<area shape="rect" id="node20" href="$classsouffle_1_1_symbol_table.html" title="Global pool of re&#45;usable strings. " alt="" coords="481,189,644,443"/>
+<area shape="rect" id="node22" href="$structsouffle_1_1_lock.html" title="A small utility class for implementing simple locks. " alt="" coords="357,5,459,127"/>
+</map>

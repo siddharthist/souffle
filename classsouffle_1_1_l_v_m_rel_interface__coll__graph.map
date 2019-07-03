@@ -1,0 +1,7 @@
+<map id="souffle::LVMRelInterface" name="souffle::LVMRelInterface">
+<area shape="rect" id="node2" href="$classsouffle_1_1_relation.html" title="Object&#45;oriented wrapper class for Souffle&#39;s templatized relations. " alt="" coords="5,292,153,545"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_l_v_m_relation.html" title="A relation, composed of a collection of indexes. " alt="" coords="399,307,610,531"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_l_v_m_index.html" title="An index is an abstraction of a data structure. " alt="" coords="389,5,521,215"/>
+<area shape="rect" id="node10" href="$classsouffle_1_1_symbol_table.html" title="Global pool of re&#45;usable strings. " alt="" coords="954,292,1117,545"/>
+<area shape="rect" id="node12" href="$structsouffle_1_1_lock.html" title="A small utility class for implementing simple locks. " alt="" coords="1219,49,1321,171"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="souffle::LVMEqRelation::extend" name="souffle::LVMEqRelation::extend">
+<area shape="rect" id="node2" href="$classsouffle_1_1_l_v_m_relation.html#a8b3a5ba846ecd6de1033aa9de3b02ad3" title="Obtains a stream to scan the entire relation. " alt="" coords="217,5,365,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_l_v_m_index.html#af1d7b57aab394a0043c21e18167f9498" title="Returns a stream covering the entire index content. " alt="" coords="413,13,584,39"/>
+</map>

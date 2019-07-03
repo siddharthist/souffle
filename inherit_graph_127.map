@@ -1,0 +1,10 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classsouffle_1_1_l_v_m_index.html" title="An index is an abstraction of a data structure. " alt="" coords="5,173,137,199"/>
+<area shape="rect" id="node2" href="$classsouffle_1_1_generic_index.html" title="souffle::GenericIndex\l\&lt; btree_set\&lt; ram::Tuple\l\&lt; RamDomain, Arity \&gt;, comparator\l\&lt; Arity \&gt; \&gt; \&gt;" alt="" coords="185,5,436,76"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_generic_index.html" title="souffle::GenericIndex\l\&lt; Trie\&lt; Arity \&gt; \&gt;" alt="" coords="233,100,388,141"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_generic_index.html" title="A generic data structure index adapter handling the boundary level order conversion as well as iterat..." alt="" coords="233,165,388,207"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_indirect_index.html" title="souffle::IndirectIndex" alt="" coords="234,231,387,258"/>
+<area shape="rect" id="node8" href="$classsouffle_1_1_nullary_index.html" title="An index wrapper for nullary indexes. " alt="" coords="235,282,386,309"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_b_tree_index.html" title="A index adapter for B&#45;trees, using the generic index adapter. " alt="" coords="484,20,625,61"/>
+<area shape="rect" id="node5" href="$classsouffle_1_1_brie_index.html" title="A index adapter for Bries, using the generic index adapter. " alt="" coords="489,100,620,141"/>
+</map>

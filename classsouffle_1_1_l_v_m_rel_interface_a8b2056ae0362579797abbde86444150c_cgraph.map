@@ -1,0 +1,4 @@
+<map id="souffle::LVMRelInterface::size" name="souffle::LVMRelInterface::size">
+<area shape="rect" id="node2" href="$classsouffle_1_1_l_v_m_relation.html#a8b7a9a3db195f4fbbf3e7563a7fd866a" title="Return number of tuples in relation (full&#45;order) " alt="" coords="225,5,373,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_l_v_m_index.html#a238681d9dc74e466ee5679ad9f46ef31" title="Obtains the number of elements stored in this index. " alt="" coords="421,13,587,39"/>
+</map>

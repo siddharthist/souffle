@@ -1,0 +1,5 @@
+<map id="souffle::LVMRelInterface::insert" name="souffle::LVMRelInterface::insert">
+<area shape="rect" id="node2" href="$classsouffle_1_1_l_v_m_relation.html#a9cdf8dbfe12c6c84aa03900f2502f250" title="Return arity. " alt="" coords="225,5,373,47"/>
+<area shape="rect" id="node3" href="$classsouffle_1_1_l_v_m_relation.html#abfe16ada59339d570d7e8060cb7896b1" title="Add the given tuple to this relation. " alt="" coords="225,71,373,112"/>
+<area shape="rect" id="node4" href="$classsouffle_1_1_l_v_m_index.html#ad47ed27229ac965aa188b72c5279ff98" title="Inserts a tuple into this index. " alt="" coords="421,71,561,112"/>
+</map>

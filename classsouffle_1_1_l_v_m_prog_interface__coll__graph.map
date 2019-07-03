@@ -1,0 +1,14 @@
+<map id="souffle::LVMProgInterface" name="souffle::LVMProgInterface">
+<area shape="rect" id="node2" href="$classsouffle_1_1_souffle_program.html" title="Abstract base class for generated Datalog programs. " alt="" coords="236,858,409,1097"/>
+<area shape="rect" id="node6" href="$classsouffle_1_1_ram_program.html" title="RAM program relation declaration and functions. " alt="" coords="785,836,941,1119"/>
+<area shape="rect" id="node7" href="$classsouffle_1_1_ram_node.html" title="RamNode is a superclass for all RAM IR classes. " alt="" coords="437,520,577,715"/>
+<area shape="rect" id="node11" href="$classsouffle_1_1_l_v_m_interface.html" title="Interpreter Interface. " alt="" coords="1323,880,1491,1075"/>
+<area shape="rect" id="node12" href="$classsouffle_1_1_relation_encoder.html" title="RelationEncoder create and encode a LVMRelation into a index position for fast lookup. " alt="" coords="1221,535,1395,700"/>
+<area shape="rect" id="node14" href="$classsouffle_1_1_ram_index_analysis.html" title="{souffle::RamIndexAnalysis\n||+ getIndexes()\l+ getIndexes()\l+ getSearchSignature()\l+ getSearchSignature()\l+ getSearchSignature()\l+ getSearchSignature()\l+ isTotalSignature()\l+ print()\l+ run()\l}" alt="" coords="1441,219,1628,413"/>
+<area shape="rect" id="node15" href="$classsouffle_1_1_ram_analysis.html" title="Abstract class for a RAM Analysis. " alt="" coords="1331,13,1485,119"/>
+<area shape="rect" id="node21" href="$classsouffle_1_1_ram_translation_unit.html" title="Translating a RAM program. " alt="" coords="1903,505,2097,729"/>
+<area shape="rect" id="node22" href="$classsouffle_1_1_debug_report.html" title="Class representing a HTML report, consisting of a list of sections. " alt="" coords="2103,255,2257,377"/>
+<area shape="rect" id="node26" href="$classsouffle_1_1_error_report.html" title="{souffle::ErrorReport\n||+ addDiagnostic()\l+ addError()\l+ addWarning()\l+ ErrorReport()\l+ ErrorReport()\l+ getNumErrors()\l+ getNumIssues()\l+ getNumWarnings()\l+ print()\l}" alt="" coords="1922,219,2078,413"/>
+<area shape="rect" id="node29" href="$classsouffle_1_1_symbol_table.html" title="Global pool of re&#45;usable strings. " alt="" coords="2456,189,2619,443"/>
+<area shape="rect" id="node31" href="$structsouffle_1_1_lock.html" title="A small utility class for implementing simple locks. " alt="" coords="2488,5,2589,127"/>
+</map>
