@@ -38,6 +38,13 @@ AS_IF([test "x$enable_provenance" != "xno"], [
 ])
 AM_CONDITIONAL([PROVENANCE], [test "x$enable_provenance" != "xno"])
 
+# Disable RTTI
+AC_ARG_ENABLE(
+  [rtti],
+  [AS_HELP_STRING([--disable-rtti], [Disable run time type information (RTTI)])]
+)
+AS_IF([test "x$disable_rtti" = "xyes"], [CXXFLAGS="$CXXFLAGS -DNO_RTTI"])
+
 # Enable sanitise memory mode
 AC_ARG_ENABLE(
   [sanitise-memory],

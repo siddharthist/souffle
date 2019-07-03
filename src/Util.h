@@ -760,7 +760,9 @@ template <typename T>
 typename std::enable_if<!detail::is_printable<T>::value, std::string>::type toString(const T& value) {
     std::stringstream ss;
     ss << "(print for type ";
+#ifndef NO_RTTI
     ss << typeid(T).name();
+#endif // NO_RTTI
     ss << " not supported)";
     return ss.str();
 }
