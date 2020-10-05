@@ -211,7 +211,8 @@ m4_ifblank(m4_join([],ENV_CONFS), [
   m4_define([CONFS], [ENV_CONFS])
 ])
 
-m4_define([DEFAULT_CATEGORIES], [[Syntactic],
+m4_define([DEFAULT_CATEGORIES], [[FastEvaluation],
+[Syntactic],
   [Semantic],
   [Evaluation],
   [Interface],
