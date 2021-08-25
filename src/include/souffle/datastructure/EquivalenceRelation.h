@@ -105,6 +105,19 @@ public:
         return retval;
     }
 
+    bool insertDense(parent_t x, parent_t y) {
+        operation_hints hints;
+        return insertDense(x, y, hints);
+    }
+
+    bool insertDense(parent_t x, parent_t y, operation_hints) {
+        // indicate that iterators will have to generate on request
+        this->statesMapStale.store(true, std::memory_order_relaxed);
+        bool retval = sds.ds.contains(x, y);
+        sds.ds.unionNodes(x, y);
+        return retval;
+    }
+
     /**
      * inserts all nodes from the other relation into this one
      * @param other the binary relation from which to add elements from
@@ -140,7 +153,7 @@ public:
         this->genAllDisjointSetLists();
         other.genAllDisjointSetLists();
 
-        std::set<value_type> repsCovered;
+        std::set<parent_t> repsCovered;
 
         // find all the disjoint sets that need to be added to this relation
         // that exist in other (and exist in this)
@@ -148,10 +161,11 @@ public:
             auto it = this->sds.sparseToDenseMap.begin();
             auto end = this->sds.sparseToDenseMap.end();
             value_type el;
+            parent_t denseEl;
             for (; it != end; ++it) {
-                std::tie(el, std::ignore) = *it;
+                std::tie(el, denseEl) = *it;
                 if (other.containsElement(el)) {
-                    value_type rep = other.sds.findNode(el);
+                    parent_t rep = other.sds.ds.findNode(denseEl);
                     if (repsCovered.count(rep) == 0) {
                         repsCovered.emplace(rep);
                     }
@@ -161,15 +175,15 @@ public:
 
         // add the intersecting dj sets into this one
         {
-            value_type el;
-            value_type rep;
+            parent_t denseEl;
+            parent_t rep;
             auto it = other.sds.sparseToDenseMap.begin();
             auto end = other.sds.sparseToDenseMap.end();
             for (; it != end; ++it) {
-                std::tie(el, std::ignore) = *it;
-                rep = other.sds.findNode(el);
+                std::tie(std::ignore, denseEl) = *it;
+                rep = other.sds.ds.findNode(denseEl);
                 if (repsCovered.count(rep) != 0) {
-                    this->insert(el, rep);
+                    this->insertDense(denseEl, rep);
                 }
             }
         }

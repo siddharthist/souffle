@@ -226,6 +226,17 @@ public:
     static inline block_t pr2b(const parent_t parent, const rank_t rank) {
         return (((block_t)parent) << split_size) | rank;
     };
+
+    inline bool nodeExists(parent_t v) {
+        return v < a_blocks.size();
+    }
+
+    inline bool contains(parent_t v1, parent_t v2) {
+        if (nodeExists(v1) && nodeExists(v2)) {
+            return sameSet(v1, v2);
+        }
+        return false;
+    }
 };
 
 template <typename StorePair>
@@ -317,6 +328,10 @@ public:
     /* finds the node in the underlying disjoint set, adding the node if non-existent */
     inline SparseDomain findNode(SparseDomain x) {
         return toSparse(ds.findNode(toDense(x)));
+    };
+    /* finds the node in the underlying disjoint set, adding the node if non-existent */
+    inline parent_t findDenseNode(SparseDomain x) {
+        return ds.findNode(toDense(x));
     };
     /* union the nodes, add if not existing */
     inline void unionNodes(SparseDomain x, SparseDomain y) {
