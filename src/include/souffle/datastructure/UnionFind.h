@@ -31,17 +31,124 @@ namespace souffle {
 #define unlikely(x) __builtin_expect((x), 0)
 #define likely(x) __builtin_expect((x), 1)
 
-using rank_t = uint8_t;
-/* technically uint56_t, but, doesn't exist. Just be careful about storing > 2^56 elements. */
-using parent_t = uint64_t;
-
 // number of bits that the rank is
 constexpr uint8_t split_size = 8u;
 
+struct rank_t {
+public:
+    rank_t(uint8_t val) : value_(val) {}
+
+    explicit operator uint64_t() const noexcept {
+        return value_;
+    }
+
+    int operator==(rank_t x) const {
+        return x.value_ == value_;
+    }
+
+    int operator!=(rank_t x) const {
+        return x.value_ != value_;
+    }
+
+    int operator<(rank_t x) const {
+        return x.value_ < value_;
+    }
+
+    int operator>(rank_t x) const {
+        return x.value_ > value_;
+    }
+
+    rank_t succ() {
+        return rank_t(value_ + 1);
+    }
+
+private:
+    uint8_t value_;
+};
+
+/* technically uint56_t, but, doesn't exist. Just be careful about storing > 2^56 elements. */
+struct parent_t {
+public:
+    explicit parent_t(uint64_t val) : value_(val) {}
+
+    int operator==(parent_t x) const {
+        return x.value_ == value_;
+    }
+
+    int operator!=(parent_t x) const {
+        return x.value_ != value_;
+    }
+
+    int operator<(parent_t x) const {
+        return x.value_ < value_;
+    }
+
+    int operator>(parent_t x) const {
+        return x.value_ > value_;
+    }
+
+    explicit operator uint64_t() const noexcept {
+        return value_;
+    }
+
+private:
+    uint64_t value_;
+};
+
 // block_t stores parent in the upper half, rank in the lower half
-using block_t = uint64_t;
-// block_t & rank_mask extracts the rank
-constexpr block_t rank_mask = (1ul << split_size) - 1;
+struct block_t {
+public:
+    // explicit operator int() const noexcept {
+    //   return value_;
+    // }
+    int operator==(block_t x) const {
+        return x.value_ == value_;
+    }
+
+    int operator!=(block_t x) const {
+        return x.value_ != value_;
+    }
+
+    static block_t pr2b(const parent_t parent, const rank_t rank) {
+        block_t block{((((uint64_t)parent) << split_size) | (uint64_t)rank)};
+        return block;
+    };
+
+    /**
+     * Extract parent from block
+     * @param inblock the block to be masked
+     * @return The parent_t contained in the upper half of block_t
+     */
+    parent_t b2p() const {
+        return parent_t(value_ >> split_size);
+    };
+
+    /**
+     * Extract rank from block
+     * @param inblock the block to be masked
+     * @return the rank_t contained in the lower half of block_t
+     */
+    rank_t b2r() const {
+        return rank_t(value_ & rank_mask);
+    };
+
+    // This must be exposed for use of std::atomic<block_t>
+    uint64_t value_;
+
+private:
+    // block_t & rank_mask extracts the rank
+    static constexpr uint64_t rank_mask = (1ul << split_size) - 1;
+};
+
+static_assert(std::is_trivially_copyable<block_t>::value);
+
+static_assert(std::is_copy_constructible<block_t>::value);
+
+static_assert(std::is_move_constructible<block_t>::value);
+
+static_assert(std::is_copy_assignable<block_t>::value);
+
+static_assert(std::is_move_assignable<block_t>::value);
 
 /**
  * Structure that emulates a Disjoint Set, i.e. a data structure that supports efficient union-find operations
@@ -79,7 +186,7 @@ public:
      * @return the parent block of the specified node
      */
     inline std::atomic<block_t>& get(parent_t node) const {
-        auto& ret = a_blocks.get(node);
+        auto& ret = a_blocks.get((std::size_t)node);
         return ret;
     };
 
@@ -180,7 +287,7 @@ public:
             }
             // make sure that the ranks are orderable
             if (xrank == yrank) {
-                updateRoot(y, yrank, y, yrank + 1);
+                updateRoot(y, yrank, y, yrank.succ());
             }
             break;
         }
@@ -194,7 +301,7 @@ public:
         // make node and find out where we've added it
         std::size_t nodeDetails = a_blocks.createNode();
 
-        a_blocks.get(nodeDetails).store(pr2b(nodeDetails, 0));
+        a_blocks.get(nodeDetails).store(pr2b(parent_t(nodeDetails), 0));
 
         return a_blocks.get(nodeDetails).load();
     };
@@ -205,7 +312,7 @@ public:
      * @return The parent_t contained in the upper half of block_t
      */
     static inline parent_t b2p(const block_t inblock) {
-        return (parent_t)(inblock >> split_size);
+        return inblock.b2p();
     };
 
     /**
@@ -214,7 +321,7 @@ public:
      * @return the rank_t contained in the lower half of block_t
      */
     static inline rank_t b2r(const block_t inblock) {
-        return (rank_t)(inblock & rank_mask);
+        return inblock.b2r();
     };
 
     /**
@@ -224,7 +331,7 @@ public:
      * @return the resultant block after merge
      */
     static inline block_t pr2b(const parent_t parent, const rank_t rank) {
-        return (((block_t)parent) << split_size) | rank;
+        return block_t::pr2b(parent, rank);
     };
 };
 
